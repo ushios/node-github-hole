@@ -4,7 +4,7 @@
   "description": "open the door",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -R spec"
   },
   "author": "",
   "license": "MIT",
@@ -12,5 +12,9 @@
     "aws-sdk": "^2.1.31",
     "eventemitter2": "^0.4.14",
     "request": "^2.55.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "should": "^6.0.3"
   }
 }
